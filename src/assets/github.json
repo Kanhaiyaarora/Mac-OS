@@ -1,0 +1,87 @@
+[
+  {
+    "id": 1,
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=1000",
+    "title": "ResolveAI - AI Customer Support Platform",
+    "description": "An AI-powered customer support platform with smart ticket management, real-time chat, AI-assisted replies, role-based dashboards, and live analytics for businesses.",
+    "tags": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Socket.io",
+      "Tailwind CSS",
+      "AI"
+    ],
+    "repoLink": "https://github.com/Kanhaiyaarora/ResolveAI",
+    "demoLink": "https://resolveai-2x3j.onrender.com"
+  },
+  {
+    "id": 2,
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1000",
+    "title": "AI Battle Arena",
+    "description": "An AI comparison platform where Mistral AI and Cohere compete on prompts while Gemini acts as the judge, scoring responses using LangGraph workflows.",
+    "tags": [
+      "React",
+      "Node.js",
+      "LangChain",
+      "LangGraph",
+      "Gemini",
+      "Mistral AI",
+      "Cohere",
+      "TypeScript"
+    ],
+    "repoLink": "https://github.com/Kanhaiyaarora/Ai-Battle-Arena",
+    "demoLink": "https://ai-battle-arena-upfa.onrender.com"
+  },
+  {
+    "id": 3,
+    "image": "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1000",
+    "title": "Forever - MERN E-Commerce",
+    "description": "A full-stack e-commerce platform featuring secure authentication, Stripe & Razorpay payments, Cloudinary image uploads, and an admin dashboard.",
+    "tags": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Stripe",
+      "Razorpay",
+      "Cloudinary"
+    ],
+    "repoLink": "https://github.com/Kanhaiyaarora/Ecommerce-app",
+    "demoLink": "https://ecommerce-frontend-25gq3h7vy-kanhaiya-aroras-projects.vercel.app/"
+  },
+  {
+    "id": 4,
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1000",
+    "title": "Visual DOM Editor",
+    "description": "A Figma-inspired visual editor that allows users to drag, resize, and manipulate components with a real-time DOM-based interface.",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "React-RND",
+      "DOM",
+      "Drag & Drop"
+    ],
+    "repoLink": "https://github.com/Kanhaiyaarora/UI-CANVAS-EDITOR",
+    "demoLink": "https://kanhaiyaarora.github.io/UI-CANVAS-EDITOR/"
+  },
+  {
+    "id": 5,
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1000",
+    "title": "Ochi.design Clone",
+    "description": "A pixel-perfect clone of the Ochi.design landing page with smooth GSAP animations, Framer Motion interactions, and responsive UI.",
+    "tags": [
+      "React",
+      "Tailwind CSS",
+      "GSAP",
+      "Framer Motion",
+      "Responsive Design"
+    ],
+    "repoLink": "YOUR_GITHUB_REPO",
+    "demoLink": "YOUR_LIVE_DEMO"
+  }
+]

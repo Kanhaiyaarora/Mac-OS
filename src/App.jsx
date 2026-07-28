@@ -1,6 +1,8 @@
 import './App.scss'
 import Dock from './components/Dock'
 import Nav from './components/Nav'
+import Github from './components/windows/Github'
+import Note from './components/windows/Note'
 
 function App() {
 
@@ -8,6 +10,8 @@ function App() {
     <main>
       <Nav />
       <Dock />
+      <Github />
+      <Note />
     </main>
   )
 }

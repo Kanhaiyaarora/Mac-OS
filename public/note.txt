@@ -1,0 +1,261 @@
+/**
+ * @file: profile.config.ts
+ * @author: Kanhaiya Arora
+ * @summary: Full-Stack MERN Developer | AI Enthusiast | Open Source Contributor | Content Creator
+ */
+
+// --------------------------------------------------
+// 1. CORE DEPENDENCIES & SKILLS
+// --------------------------------------------------
+
+const TECH_STACK = {
+  frontend: [
+    "React.js",        // 95%
+    "Next.js",         // 80%
+    "TypeScript",      // 80%
+    "Tailwind CSS",    // 95%
+    "GSAP",            // 90%
+    "Framer Motion",   // 90%
+    "Three.js",        // 70%
+  ],
+
+  backend: [
+    "Node.js",         // 90%
+    "Express.js",      // 90%
+    "MongoDB",         // 90%
+    "Redis",           // 75%
+    "RabbitMQ",        // 70%
+    "Docker",          // 85%
+    "NGINX",           // 80%
+  ],
+
+  ai_ml: [
+    "LangChain",
+    "LangGraph",
+    "LLM Integration",
+    "RAG",
+    "Embeddings",
+    "Semantic Search",
+    "Pinecone",
+    "MCP Server"
+  ],
+
+  tools: [
+    "Git",
+    "GitHub",
+    "Linux",
+    "Postman",
+    "VS Code",
+    "Kubernetes",
+    "Docker Compose",
+    "Cloudinary"
+  ]
+};
+
+// --------------------------------------------------
+// 2. EXPERIENCE LOG (Reverse Chronological)
+// --------------------------------------------------
+
+class ProfessionalHistory {
+
+  /**
+   * @period 2026 - Present
+   */
+  public async OpenSourceContributor(): Promise<Impact> {
+
+    const role = "Open Source Contributor";
+
+    const contributions = [
+      "Fixed production issues",
+      "Submitted bug fixes",
+      "Improved React ecosystem libraries",
+      "Collaborated with maintainers"
+    ];
+
+    const technologies = [
+      "React",
+      "TypeScript",
+      "Git",
+      "GitHub"
+    ];
+
+    return { role, contributions, technologies };
+  }
+
+  /**
+   * @period July 2024
+   */
+  public DigiglobeSolution(): void {
+
+    this.role = "Frontend Developer Intern";
+
+    this.focus = [
+      "Responsive UI Development",
+      "React Components",
+      "Tailwind CSS",
+      "API Integration"
+    ];
+
+    // Built reusable UI components
+    // Worked with modern frontend development workflow
+  }
+}
+
+// --------------------------------------------------
+// 3. FEATURED PROJECTS
+// --------------------------------------------------
+
+interface Project {
+  name: string;
+  stack: string[];
+  highlights: string[];
+}
+
+const projects: Project[] = [
+
+  {
+    name: "ResolveAI",
+    stack: [
+      "MERN",
+      "LangChain",
+      "LangGraph",
+      "Gemini",
+      "MongoDB"
+    ],
+
+    highlights: [
+      "AI-powered customer support platform",
+      "Smart ticket management",
+      "Real-time chat",
+      "Role-based dashboards",
+      "Analytics"
+    ]
+  },
+
+  {
+    name: "AI Battle Arena",
+
+    stack: [
+      "Node.js",
+      "LangGraph",
+      "Mistral",
+      "Cohere",
+      "Gemini"
+    ],
+
+    highlights: [
+      "LLM vs LLM battle simulator",
+      "Gemini acts as AI judge",
+      "Automated scoring",
+      "Prompt evaluation"
+    ]
+  },
+
+  {
+    name: "MERN E-Commerce",
+
+    stack: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Stripe",
+      "Razorpay"
+    ],
+
+    highlights: [
+      "Authentication",
+      "Payments",
+      "Admin dashboard",
+      "Cloudinary integration"
+    ]
+  }
+];
+
+// --------------------------------------------------
+// 4. ACHIEVEMENTS
+// --------------------------------------------------
+
+interface Achievement {
+  title: string;
+  description: string;
+}
+
+const achievements: Achievement[] = [
+
+  {
+    title: "🥇 Gold Medalist",
+    description: "Bachelor of Computer Applications (BCA)"
+  },
+
+  {
+    title: "🏆 Hackathon Winner",
+    description: "Led team to build ResolveAI and won ₹2,500 cash prize."
+  },
+
+  {
+    title: "🌍 Open Source Contributor",
+    description: "Contributed bug fixes and improvements to popular React libraries."
+  }
+];
+
+// --------------------------------------------------
+// 5. ACADEMIC BACKGROUND
+// --------------------------------------------------
+
+const education = new Map<string, string>([
+  [
+    "Bachelor of Computer Applications",
+    "Gold Medalist"
+  ]
+]);
+
+// --------------------------------------------------
+// 6. CURRENT MISSION
+// --------------------------------------------------
+
+const currentGoals = {
+  learning: [
+    "System Design",
+    "Microservices",
+    "Kubernetes",
+    "AI Engineering",
+    "Cloud"
+  ],
+
+  building: [
+    "AI SaaS Products",
+    "Developer Tools",
+    "Open Source Projects"
+  ],
+
+  interestedIn: [
+    "Full-Stack Development",
+    "AI/ML",
+    "Developer Experience",
+    "Content Creation"
+  ]
+};
+
+export default new ProfessionalHistory();
+
+```
+
+```bash
+# TERMINAL OUTPUT
+# ---------------------------------------
+$ kanhaiya --status
+
+> Name: Kanhaiya Arora
+> Role: Full-Stack MERN Developer
+> Education: BCA Gold Medalist 🥇
+> Experience: Frontend Intern + Open Source Contributor
+> Stack: MERN | TypeScript | AI | Docker | Kubernetes
+> Building: AI Products & SaaS
+> Status: Open to Work 🚀
+> Location: India / Remote
+
+Loading Portfolio...
+[||||||||||||||||||||] 100%
+
+Ready to build something amazing.
+```

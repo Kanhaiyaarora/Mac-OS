@@ -16,6 +16,8 @@ main {
   background-image: url(/wallpaper.jpg);
   background-size: cover;
   background-position: center;
+  overflow: hidden;
+  position: relative;
 }
 body {
   background-color: black;

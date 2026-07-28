@@ -10,23 +10,23 @@
 
 const TECH_STACK = {
   frontend: [
-    "React.js",        // 95%
-    "Next.js",         // 80%
-    "TypeScript",      // 80%
-    "Tailwind CSS",    // 95%
-    "GSAP",            // 90%
-    "Framer Motion",   // 90%
-    "Three.js",        // 70%
+    "React.js",        
+    "Next.js",         
+    "TypeScript",      
+    "Tailwind CSS",    
+    "GSAP",            
+    "Framer Motion",   
+    "Three.js",        
   ],
 
   backend: [
-    "Node.js",         // 90%
-    "Express.js",      // 90%
-    "MongoDB",         // 90%
-    "Redis",           // 75%
-    "RabbitMQ",        // 70%
-    "Docker",          // 85%
-    "NGINX",           // 80%
+    "Node.js",         
+    "Express.js",      
+    "MongoDB",         
+    "Redis",           
+    "RabbitMQ",        
+    "Docker",          
+    "NGINX",           
   ],
 
   ai_ml: [

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.scss'
+import './app.scss'
 import Dock from './components/Dock'
 import Nav from './components/Nav'
 import Cli from './components/windows/Cli'

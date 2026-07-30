@@ -146,5 +146,6 @@ If you enjoyed this project, please consider giving it a ⭐ on GitHub. It reall
 
 This project is licensed under the **MIT License**.
 
-![Uploading image.png…]()
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/476b851f-035c-4baa-866c-b29e0a0f61b6" />
+
 

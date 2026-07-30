@@ -6,6 +6,7 @@ const Dock = ({ windowsState, setWindowsState }) => {
       <div onClick={() => { setWindowsState(state => ({ ...state, github: true })) }} className="icon github"><img src="/doc-icons/github.svg" alt="" /></div>
       <div onClick={() => { setWindowsState(state => ({ ...state, note: true })) }} className="icon note"><img src="/doc-icons/note.svg" alt="" /></div>
       <div onClick={() => { setWindowsState(state => ({ ...state, resume: true })) }} className="icon pdf"><img src="/doc-icons/pdf.svg" alt="" /></div>
+      <div onClick={() => { setWindowsState(state => ({ ...state, contact: true })) }} className="icon contact"><img src="/doc-icons/contact.svg" alt="" /></div>
       <div onClick={() => { window.open("https://calendar.google.com/", "_blank") }} className="icon calender"><img src="/doc-icons/calender.svg" alt="" /></div>
       <div onClick={() => { setWindowsState(state => ({ ...state, spotify: true })) }} className="icon spotify"><img src="/doc-icons/spotify.svg" alt="" /></div>
       <div onClick={() => window.open("mailto:kanhaiyaarora75@gmail.com", "_blank")} className="icon mail"><img src="/doc-icons/mail.svg" alt="" /></div>

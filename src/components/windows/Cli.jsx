@@ -103,6 +103,7 @@ July 2024 (1 Month)
       description: 'Get contact information',
       usage: 'contact',
       fn: () => `📧 Email: kanhaiyaarora75@gmail.com
+      📱 7505200946
 📍 India
 💼 Available for Full-Time, Freelance & Open Source`
     },
@@ -163,14 +164,9 @@ and contributing to Open Source.
 Type 'help' to explore available commands.
 
 Popular commands:
-  • about
-  • skills
-  • projects
-  • experience
-  • contact
-  • github
-  • linkedin
-  • resume
+  • about • skills • projects
+  • experience • contact • github
+  • linkedin • resume
 
 Happy Exploring! 🚀
 `

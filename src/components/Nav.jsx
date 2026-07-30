@@ -3,7 +3,7 @@ import './nav.scss'
 import Date from './DateTime'
 
 
-const Nav = () => {
+const Nav = ({ windowsState, setWindowsState }) => {
   return (
     <nav>
       <div className="left">
@@ -12,16 +12,19 @@ const Nav = () => {
         </div>
 
         <div className="nav-items">
-          <p>Kanhaiya Arora</p>
+          <p>Kanhaiya's Portfolio</p>
         </div>
-        <div className="nav-items">
-          <p>File</p>
+        <div onClick={() => { setWindowsState(state => ({ ...state, github: true })) }} className="nav-items nav-links">
+          <p>Projects</p>
         </div>
-        <div className="nav-items">
-          <p>Window</p>
+        <div onClick={() => { setWindowsState(state => ({ ...state, contact: true })) }} className="nav-items nav-links">
+          <p>Contact</p>
         </div>
-        <div className="nav-items">
-          <p>Terminal</p>
+        <div className="nav-items nav-links">
+          <p onClick={() => { setWindowsState(state => ({ ...state, cli: true })) }}>Terminal</p>
+        </div>
+        <div className="nav-items nav-links">
+          <p onClick={() => { setWindowsState(state => ({ ...state, resume: true })) }}>Resume</p>
         </div>
 
       </div>
